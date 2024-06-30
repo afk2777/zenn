@@ -65,8 +65,9 @@ python -m venv venv
 source venv/bin/activate
 
 # nvimからjupyterを利用するのに必要なpythonツールをインストール
+pip install jupytext
 pip install pynvim
-pip install jupyterclient
+pip install jupyter-client
 
 # jupyterlabをインストール
 pip install jupyterlab
@@ -79,12 +80,12 @@ poetryで作成した仮想環境に入るとなぜかnvim上で画像表示す�
 
 ### 拡張機能の設定
 #### 利用する拡張機能について
-| 拡張機能 | 説明 |
-| ---- | ---- |
-| jupytext | \*\.ipyenvをpy形式に変換して開くために利用 |
+| 拡張機能              | 説明                                                      |
+| ----------------- | ------------------------------------------------------- |
+| jupytext          | \*\.ipyenvをpy形式に変換して開くために利用                             |
 | NotebookNavigator | 「\#\%\%」をセルとしてみなすために利用。セルブロック内のプログラムコードをmoltenに連携してくれる。 |
-| molten-nvim | pythonプログラムを実行し、nvimエディタ上に結果を表示する。 |
-| image.nvim | 画像をnvimエディタ上に表示するために利用。molten経由で利用される。 |
+| molten-nvim       | pythonプログラムを実行し、nvimエディタ上に結果を表示する。                      |
+| image.nvim        | 画像をnvimエディタ上に表示するために利用。molten経由で利用される。                  |
 
 #### 設定ファイル
 以下のファイルを追加してください。
