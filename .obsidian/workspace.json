@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b2db2ca0a6ee7a5e",
+        "id": "d37f359602ccc2b3",
         "type": "tabs",
         "children": [
           {
-            "id": "83c67b86c7c44ff6",
+            "id": "64cbd1e2360ec01d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "articles/aider-beginner.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "aider-beginner"
+              "title": "新規タブ"
             }
           }
         ]
@@ -141,13 +137,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "articles/aider-beginner.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "aider-beginnerのアウトライン"
+              "title": "アウトライン"
             }
           }
         ],
@@ -167,7 +162,7 @@
       "command-palette:コマンドパレットを開く": false
     }
   },
-  "active": "83c67b86c7c44ff6",
+  "active": "64cbd1e2360ec01d",
   "lastOpenFiles": [
     "articles/aider-beginner.md",
     "images/aider-beginner/IMG-20250503120923193.gif",
